@@ -13,4 +13,14 @@ You can also specify desired capacity and auto-scaling policies for the Amazon E
 
 # AUTOSCALING COMPONENTS
 
-1.Launch Configuration 2. Auto scaling Group 3. Auto scaling Policy
+# 1.Launch Configuration 2. Auto scaling Group 3. Auto scaling Policy
+
+1. Launch Configuration (WHAT) : AMI, INSTANCE TYPE, SCURITY GROUPS AND ROLES
+
+2. Auto Scaling Group (WHERE)  : VPC AND SUBNETS, LOAD BALANCERS, MINIMUM INSTANCES, MAXIMUM INSTANCES AND DESIRED CAPACITY
+
+3. Auto Scaling Policy (WHEN)  : SCHEDULED, ON-DEMAND, SCALE-OUT POLICY AND SCALE-IN POLICY
+
+# DYNAMIC AUTO SCALING :
+
+A dynamic scaling policy instructs Amazon EC2 Auto Scaling to track a specific CloudWatch metric, and it defines what action to take when the associated CloudWatch alarm is in ALARM. The metrics that are used to trigger an alarm are an aggregation of metrics coming from all of the instances in the Auto Scaling group. (For example, let's say you have an Auto Scaling group with two instances where one instance is at 60 percent CPU and the other is at 40 percent CPU. On average, they are at 50 percent CPU.) When the policy is in effect, Amazon EC2 Auto Scaling adjusts the group's desired capacity up or down when the alarm is triggered.
