@@ -1,4 +1,5 @@
 
+![AWS](https://user-images.githubusercontent.com/54776422/142857199-1316cb30-d91c-43b5-97e6-572444e7fefd.jpg)
 
 
 # WHAT IS EC2 AUTOSCALING ?
