@@ -34,4 +34,4 @@ A dynamic scaling policy instructs Amazon EC2 Auto Scaling to track a specific C
 #          ![SERVICES](https://user-images.githubusercontent.com/54776422/142858761-cbba6ae5-58d4-4c6b-9620-de74f0e9d253.png) CREATE LAUNCH CONFIGURATION 
 #          ![SERVICES](https://user-images.githubusercontent.com/54776422/142858761-cbba6ae5-58d4-4c6b-9620-de74f0e9d253.png) CREATE AN AUTO SCALING GROUP 
 #          ![SERVICES](https://user-images.githubusercontent.com/54776422/142858761-cbba6ae5-58d4-4c6b-9620-de74f0e9d253.png) CREATE AN AUTO SCALING POLICY 
-#          ![SERVICES](https://user-images.githubusercontent.com/54776422/142858761-cbba6ae5-58d4-4c6b-9620-de74f0e9d253.png) TRIGGER AUTO SCALING 
+#          ![SERVICES](https://user-images.githubusercontent.com/54776422/142858761-cbba6ae5-58d4-4c6b-9620-de74f0e9d253.png) TRIGGER AUTO SCALING
