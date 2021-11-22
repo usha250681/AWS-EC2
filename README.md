@@ -24,3 +24,6 @@ You can also specify desired capacity and auto-scaling policies for the Amazon E
 # DYNAMIC AUTO SCALING :
 
 A dynamic scaling policy instructs Amazon EC2 Auto Scaling to track a specific CloudWatch metric, and it defines what action to take when the associated CloudWatch alarm is in ALARM. The metrics that are used to trigger an alarm are an aggregation of metrics coming from all of the instances in the Auto Scaling group. (For example, let's say you have an Auto Scaling group with two instances where one instance is at 60 percent CPU and the other is at 40 percent CPU. On average, they are at 50 percent CPU.) When the policy is in effect, Amazon EC2 Auto Scaling adjusts the group's desired capacity up or down when the alarm is triggered.
+
+
+![DYNAMIC](https://user-images.githubusercontent.com/54776422/142850616-26750bd2-15f6-43a9-9e3f-0b205d8d58d5.jpg)
