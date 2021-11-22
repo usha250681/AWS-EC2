@@ -1,5 +1,4 @@
 
-
 # WHAT IS EC2 AUTOSCALING ?
 
 Auto Scaling helps you maintain application availability and allows you to dynamically scale your Amazon EC2 capacity up or down automatically, according to conditions you define.
